@@ -1,0 +1,8 @@
+{
+  "name": "electron-schema",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/compiler": ">=2",
+    "@angular/core": ">=2"
+  }
+}
