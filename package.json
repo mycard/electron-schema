@@ -1,8 +1,18 @@
 {
   "name": "electron-schema",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "scripts": {
+    "build": "tsc"
+  },
   "peerDependencies": {
     "@angular/compiler": ">=2",
     "@angular/core": ">=2"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^4.0.3",
+    "@angular/core": "^4.0.3",
+    "rxjs": "^5.3.0",
+    "zone.js": "^0.8.8",
+    "typescript": "^2.2.2"
   }
 }
